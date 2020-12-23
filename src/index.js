@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import ImgMediaCard from './Monday';
+import ImgMediaCard from './Tuesday';
+import ImgMediaCard from './Wednesday';
+import ImgMediaCard from './Thursday';
+import ImgMediaCard from './Friday';
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <ImgMediaCard />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
